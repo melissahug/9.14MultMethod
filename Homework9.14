@@ -1,0 +1,26 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace home_stuff
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            
+            int a = int.Parse(Console.ReadLine());
+            int b = 2;
+            Console.WriteLine(Double(a,b));    
+                                        
+        }
+      static int Double(int a, int b)                  //this int called Double uses the two parameters
+                
+        {
+            int numb2 = a * b;						//the action I want is for it multiply the variables												
+            return numb2;
+        }
+    }
+}
